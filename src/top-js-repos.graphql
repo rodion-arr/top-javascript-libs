@@ -1,0 +1,26 @@
+query { 
+      search(
+        first: 100,
+        type: REPOSITORY,
+        query: """
+          language:javascript
+          sort:stars-desc
+        """
+      ) {
+        repos: edges {
+          repo: node {
+            ... on Repository {
+              url
+              name
+              description
+              stargazers {
+                totalCount
+              }
+              primaryLanguage {
+                name
+              }
+            }
+          }
+        }
+      }
+    }

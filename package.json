@@ -1,0 +1,29 @@
+{
+  "name": "top-javascript-libs",
+  "version": "1.0.0",
+  "description": "Retrieves most starred JavaSCript GitHub repos",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodion-arr/top-javascript-libs.git"
+  },
+  "keywords": [
+    "GitHub",
+    "GraphQL",
+    "Octokit"
+  ],
+  "author": "Rodion Abdurakhimov <rodion.arr.web@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodion-arr/top-javascript-libs/issues"
+  },
+  "homepage": "https://github.com/rodion-arr/top-javascript-libs#readme",
+  "dependencies": {
+    "@octokit/graphql": "^4.5.4",
+    "dotenv": "^8.2.0"
+  }
+}
