@@ -25,5 +25,8 @@
   "dependencies": {
     "@octokit/graphql": "^4.5.4",
     "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
   }
 }
