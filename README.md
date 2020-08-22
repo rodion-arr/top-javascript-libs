@@ -1,5 +1,8 @@
 # Top JavaScript repositories on GitHub
 
+![Node.js CI](https://github.com/rodion-arr/top-javascript-libs/workflows/Node.js%20CI/badge.svg)
+![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)
+
 This is a list of top starred JS repos on GitHub.
 
 Built with Node.JS and GitHub GraphQL client:
