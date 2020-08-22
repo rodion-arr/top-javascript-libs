@@ -10,5 +10,5 @@ module.exports.generateTable = (data) => {
     md += `| ${repo.repo.name} | ${repo.repo.url} | ${repo.repo.description} | ${repo.repo.stargazers.totalCount} | \n`
   }
 
-  return md;
+  return md
 }

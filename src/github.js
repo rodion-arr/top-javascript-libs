@@ -2,7 +2,7 @@
 
 const fs = require('fs')
 const path = require('path')
-const { graphql } = require("@octokit/graphql")
+const { graphql } = require('@octokit/graphql')
 
 module.exports.getTopJsRepos = async (gitHubToken) => {
   const query = fs.readFileSync(path.join(__dirname, 'top-js-repos.graphql')).toString()
@@ -11,8 +11,8 @@ module.exports.getTopJsRepos = async (gitHubToken) => {
     query,
     {
       headers: {
-        authorization: `token ${gitHubToken}`,
-      },
+        authorization: `token ${gitHubToken}`
+      }
     }
-  );
+  )
 }
